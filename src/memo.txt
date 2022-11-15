@@ -1,10 +1,22 @@
-/*
+Scanner sc = new Scanner(System.in);
+sc.nextInt();
+
+------------------------------------------------------------------------------------------------------------------
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        Integer.parseInt(st.nextToken());
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st;
 
+        st = new StringTokenizer(br.readLine());
+        int a = Integer.parseInt(st.nextToken());
+        bw.write();
 
-    Scanner sc = new Scanner(System.in);
-    sc.nextInt();...
-
- */
+        bw.flush();
+        bw.close();
+    }
+}

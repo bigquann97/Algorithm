@@ -7,13 +7,9 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st;
 
-        int count = Integer.parseInt(br.readLine());
-
-        for (int i = 0; i < count; i++) {
-            for (int j = count - i; j > 0; j--) {
-
-            }
-        }
+        st = new StringTokenizer(br.readLine(), "x");
+        int a = Integer.parseInt(st.nextToken());
+        bw.write(a);
 
         bw.flush();
         bw.close();

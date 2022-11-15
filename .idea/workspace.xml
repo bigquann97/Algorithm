@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q10_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q11_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q11_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q6_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q8_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week1/Q9_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q10_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q10_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q10_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q6_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q6_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week2/Q9_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week3/Code01_BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week3/Code02_SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week3/Code03_InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week3/Code04_MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sparta/week3/memo.txt" afterDir="false" />
+    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sparta/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sparta/week1/Q5_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/memo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +44,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Code04_MergeSort">
-    <configuration name="Code01_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sparta.week3.Code01_BubbleSort" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sparta.week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Code02_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sparta.week3.Code02_SelectionSort" />
       <module name="Algorithm" />
@@ -118,6 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Temp" />
       <module name="Algorithm" />
@@ -127,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Code04_MergeSort" />
         <item itemvalue="Application.Code03_InsertionSort" />
         <item itemvalue="Application.Code02_SelectionSort" />
         <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Code01_BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +127,7 @@
       <workItem from="1668127599771" duration="18220000" />
       <workItem from="1668420268969" duration="46000" />
       <workItem from="1668497322295" duration="5904000" />
+      <workItem from="1668522635682" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
@@ -162,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667985731944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Algorithm">
+      <created>1668522697211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668522697211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm" />
   </component>
 </project>
