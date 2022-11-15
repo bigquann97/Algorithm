@@ -1,11 +1,9 @@
-package sparta;
+package sparta.week1;
 
-import java.util.ArrayList;
-
-public class Test {
+public class Q5_1 {
 
     public static void main(String[] args) {
-        String test = "hello my name is coby brient hehehehe";
+        String test = "hello my name is coby bryant hehehehe";
         System.out.println(logic(test));
 
 

@@ -1,0 +1,10 @@
+/*
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        Integer.parseInt(st.nextToken());
+
+
+    Scanner sc = new Scanner(System.in);
+    sc.nextInt();...
+
+ */
