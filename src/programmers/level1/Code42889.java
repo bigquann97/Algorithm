@@ -1,12 +1,11 @@
 package programmers.level1;
 
-import java.math.BigDecimal;
 import java.util.*;
 
 public class Code42889 {
     public static void main(String[] args) {
         int N = 5;
-        int[] stages = new int[]{2, 1, 2, 6, 2, 4, 3, 3};
+        int[] stages = new int[]{2, 1, 2, 3, 2, 4, 3, 3};
 
         Code42889_1 a = new Code42889_1();
         int[] solution = a.solution(N, stages);
@@ -18,74 +17,75 @@ public class Code42889 {
 
 class Code42889_1 {
     public int[] solution(int N, int[] stages) {
-        int[] answer = {};
-
-        Map<Integer, int[]> map = new HashMap<>();
-        Map<Integer, Double> failure = new HashMap<>();
+        int[] answer = new int[N];
+        HashMap<Integer, int[]> map = new HashMap<>();
+        ArrayList<Double> arr = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>();
+        int maxIndex;
+        double maxValue;
 
         for (int i = 1; i <= N + 1; i++) {
             map.put(i, new int[]{0, 0});
         }
 
-        for (int i = 0; i < stages.length; i++) {
-            for (int j = 1; j <= stages[i]; j++) { // 스테이지 단계
+        for (int i = 1; i <= map.size(); i++) {
+            System.out.println(i+"단계 스테이지: " + map.get(i)[0] + "명 실패, " + map.get(i)[1] +"명 도전");
+        }
+
+        System.out.println("=======================");
+
+        for (int stage : stages) {
+            for (int j = 1; j <= stage; j++) {
                 map.get(j)[1] += 1;
-                if(j == stages[i]) {
+                if (j == stage) {
                     map.get(j)[0] += 1;
                 }
             }
         }
 
         for (int i = 1; i <= map.size(); i++) {
-            Double fail = (double) map.get(i)[0] / map.get(i)[1];
-            failure.put(i, fail);
+            System.out.println(i+"단계 스테이지: " + map.get(i)[0] + "명 실패, " + map.get(i)[1] +"명 도전");
+        }
+        System.out.println("=======================");
+
+        for (int i = 0; i < map.size() - 1; i++) {
+            if(map.get(i+1)[1] == 0) {
+                arr.add(0.0);
+                continue;
+            }
+            double v = (double) map.get(i + 1)[0] / map.get(i + 1)[1];
+            arr.add(v);
         }
 
-        Double[] doubles = new Double[failure.size() - 1];
-        for (int i = 1; i <= failure.size() - 1; i++) {
-            doubles[i-1] = failure.get(i);
-        }
+        System.out.println("arr = " + arr);
+        System.out.println("=======================");
 
-
-        answer = new int[doubles.length];
-
-
-        HashMap<Integer, Double> hashMap = new HashMap<>();
-        for (int i = 0; i < doubles.length; i++) {
-            hashMap.put(i + 1, doubles[i]);
-        }
-
-
-
-        ArrayList<Integer> a = new ArrayList<>();
-        ArrayList<Double> b = new ArrayList<>();
-
-        for (int i = 1; i <= hashMap.size(); i++) {
-            b.add(hashMap.get(i));
-        }
-
-        while(a.size() != b.size()) {
-
-            int maxIndex = 0;
-            double max = b.get(0);
-
-            for (int i = 0; i < b.size(); i++) {
-                if(b.get(i) > max) {
+        while(temp.size() != arr.size()) {
+            maxIndex = 0;
+            maxValue = arr.get(0);
+            for (int i = 0; i < arr.size(); i++) {
+                if(arr.get(i) > maxValue) {
+                    maxValue = arr.get(i);
                     maxIndex = i;
-                    max = b.get(i);
                 }
             }
-
-            a.add(maxIndex + 1);
-            b.set(maxIndex, (double) -1);
+            arr.set(maxIndex, (double) -1);
+            System.out.println("arr = " + arr);
+            temp.add(maxIndex + 1);
         }
 
-        answer = new int[a.size()];
-        for (int i = 0; i < a.size(); i++) {
-            answer[i] = a.get(i);
-        }
+        System.out.println("=======================");
 
+        for (int i = 0; i < answer.length; i++) {
+            answer[i] = temp.get(i);
+        }
 
         return answer;
     }
 }
+
+/*
+        for (int i = 1; i <= map.size(); i++) {
+            System.out.println(i+"단계 스테이지: " + map.get(i)[0] + "명 실패, " + map.get(i)[1] +"명 도전");
+        }
+ */
