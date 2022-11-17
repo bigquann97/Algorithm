@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Programmers Test">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Code12921.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Code12977.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Code132267.java" afterDir="false" />
+    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Programmers">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level1/Code42889.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code42862.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level1/Code42862.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +43,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Code12977 (2)">
-    <configuration name="Code12977 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code12977" />
+  <component name="RunManager" selected="Application.Code42889 (1)">
+    <configuration name="Code42889 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code12977 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code12977" />
+    <configuration name="Code42889 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code12977 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code12977" />
+    <configuration name="Code42889 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code12977 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code12977" />
+    <configuration name="Code42889 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code12977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code12977" />
+    <configuration name="Code42889 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code12977 (2)" />
-        <item itemvalue="Application.Code12977 (1)" />
-        <item itemvalue="Application.Code12977" />
-        <item itemvalue="Application.Code12977 (5)" />
-        <item itemvalue="Application.Code12977 (4)" />
+        <item itemvalue="Application.Code42889 (1)" />
+        <item itemvalue="Application.Code42889 (5)" />
+        <item itemvalue="Application.Code42889 (4)" />
+        <item itemvalue="Application.Code42889 (3)" />
+        <item itemvalue="Application.Code42889 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,7 @@
       <workItem from="1668523602046" duration="369000" />
       <workItem from="1668556542274" duration="16415000" />
       <workItem from="1668583340513" duration="28496000" />
-      <workItem from="1668680543876" duration="4980000" />
+      <workItem from="1668680543876" duration="13004000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668614231889</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Programmers">
+      <created>1668685861703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668685861703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +201,7 @@
     <MESSAGE value="Algorithm" />
     <MESSAGE value="Algorithm Setting" />
     <MESSAGE value="Programmers Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programmers Test" />
+    <MESSAGE value="Programmers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programmers" />
   </component>
 </project>

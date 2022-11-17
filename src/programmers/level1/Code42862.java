@@ -15,6 +15,7 @@ public class Code42862 {
         Code42862_1 a = new Code42862_1();
         a.solution(n, lost, reserve);
 
+
     }
 }
 
