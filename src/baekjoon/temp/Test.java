@@ -1,9 +1,9 @@
-package baekjoon;
+package baekjoon.temp;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+class Temp {
     public static void main(String[] args) {
         ArrayList<String> answer = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);

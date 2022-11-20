@@ -1,7 +1,4 @@
-Scanner sc = new Scanner(System.in);
-sc.nextInt();
-
-------------------------------------------------------------------------------------------------------------------
+package baekjoon.temp;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -14,8 +11,10 @@ public class Main {
 
         st = new StringTokenizer(br.readLine());
         int a = Integer.parseInt(st.nextToken());
-        bw.write();
 
+        for (int i = 0; i < 9; i++) {
+            bw.write(a + " * " + (i + 1) + " = " + a * (i + 1) + "\n");
+        }
         bw.flush();
         bw.close();
     }
