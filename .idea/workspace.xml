@@ -2,13 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Programmers">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/temp/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level0/Code120826.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level0/code120898/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level0/code120898/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programmers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekjoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekjoon/temp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/memo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/temp/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekjoon/temp/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120583.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120585.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120802.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120803.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120804.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120805.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120806.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120807.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120809.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120810.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120814.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120816.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120817.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120820.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120821.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120822.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120824.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120826.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120830.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120831.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/Code120847.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/code120898/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level0/code120898/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12921.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12922.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12928.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12943.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12954.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code12977.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code132267.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code135808.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code42748.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code42862.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code42889.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code86051.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level1/Code92334.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/skillTest/Code734.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/skillTest/Code899.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/timeAttack/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/timeAttack/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q10_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q11_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q11_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q4_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q5_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q6_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q8_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week1/Q9_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q10_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q10_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q10_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q6_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q6_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week2/Q9_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week3/Code01_BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week3/Code02_SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week3/Code03_InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week3/Code04_MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sparta/week3/memo.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +98,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gwanho/Desktop/pro-stu/Algorithm/src",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/programmers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/baekjoon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Code42889 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
@@ -150,7 +223,7 @@
       <workItem from="1668697109575" duration="6260000" />
       <workItem from="1668749337664" duration="789000" />
       <workItem from="1668844406965" duration="651000" />
-      <workItem from="1668930805521" duration="1301000" />
+      <workItem from="1668930805521" duration="3582000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
