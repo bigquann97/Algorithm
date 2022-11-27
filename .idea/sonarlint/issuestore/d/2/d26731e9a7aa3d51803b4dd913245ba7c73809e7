@@ -1,0 +1,9 @@
+
+W
+java:S1854"5Remove this useless assignment to local variable "s".(­ÂÔùÿÿÿÿ8““ÑÉ0
+^
+java:S1854"<Remove this useless assignment to local variable "solution".(ËÊüşÿÿÿÿ8““ÑÉ0
+O
+java:S1481"-Remove this unused "solution" local variable.(ËÊüşÿÿÿÿ8”“ÑÉ0
+H
+java:S1481"&Remove this unused "s" local variable.(­ÂÔùÿÿÿÿ8•“ÑÉ0

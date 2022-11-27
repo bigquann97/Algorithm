@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Setting for Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/Memo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Programmers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -58,29 +60,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Programmers">
-    <configuration name="Code42889 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
+  <component name="RunManager" selected="Application.Main2">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code42889 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level1.Code42889" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +77,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Programmers" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Code42889 (4)" />
-        <item itemvalue="Application.Code42889 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +147,9 @@
       <workItem from="1668844406965" duration="651000" />
       <workItem from="1668930805521" duration="11317000" />
       <workItem from="1668965277117" duration="138000" />
+      <workItem from="1669033083158" duration="5584000" />
+      <workItem from="1669078185863" duration="1876000" />
+      <workItem from="1669084654069" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
