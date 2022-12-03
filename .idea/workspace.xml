@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="Setting for Algorithm">
-      <change afterPath="$PROJECT_DIR$/src/Memo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Programmers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
@@ -150,6 +148,12 @@
       <workItem from="1669033083158" duration="5584000" />
       <workItem from="1669078185863" duration="1876000" />
       <workItem from="1669084654069" duration="597000" />
+      <workItem from="1669872536159" duration="5136000" />
+      <workItem from="1669889151486" duration="112000" />
+      <workItem from="1669889274682" duration="597000" />
+      <workItem from="1669944461966" duration="1435000" />
+      <workItem from="1669953327167" duration="1592000" />
+      <workItem from="1669972404585" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
