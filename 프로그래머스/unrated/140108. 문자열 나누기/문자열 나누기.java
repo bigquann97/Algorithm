@@ -4,7 +4,8 @@ class Solution {
         int idx = 0;
         boolean flag = true;
 
-        while(flag) {
+        a:
+        while(true) {
             if(idx >= s.length())
                 break;
             int startCount = 0;
@@ -22,8 +23,7 @@ class Solution {
                 }
                 if(i == s.length() - 1) {
                     answer++;
-                    flag = false;
-                    break;
+                    break a;
                 }
             }
         }
