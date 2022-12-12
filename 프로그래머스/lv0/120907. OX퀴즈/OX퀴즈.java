@@ -2,37 +2,29 @@ class Solution {
     public String[] solution(String[] quiz) {
         String[] answer = new String[quiz.length];
         int i = 0;
-
         for (String s : quiz) {
-            if (s.contains(" + ")) {
-                String[] start = s.split(" \\+ ");
-                String[] end = start[1].split(" = ");
-                String a = start[0];
-                String b = end[0];
-                String c = end[1];
-                int z = Integer.parseInt(a);
-                int x = Integer.parseInt(b);
-                int v = Integer.parseInt(c);
-                if (z + x == v)
-                    answer[i++] = "O";
-                else
-                    answer[i++] = "X";
-            } else {
-                String[] start = s.split(" - ");
-                String[] end = start[1].split(" = ");
-                String a = start[0];
-                String b = end[0];
-                String c = end[1];
-                int z = Integer.parseInt(a);
-                int x = Integer.parseInt(b);
-                int v = Integer.parseInt(c);
-                if (z - x == v)
-                    answer[i++] = "O";
-                else
-                    answer[i++] = "X";
-            }
+            String sik = s.split(" = ")[0];
+            Integer dap = Integer.valueOf(s.split(" = ")[1]);
 
+            if (sik.contains(" - ")) {
+                int a = Integer.parseInt(sik.split(" - ")[0]);
+                int b = Integer.parseInt(sik.split(" - ")[1]);
+                if (a - b == dap) {
+                    answer[i++] = "O";
+                } else{
+                    answer[i++] = "X";
+                }
+            } else {
+                int a = Integer.parseInt(sik.split(" \\+ ")[0]);
+                int b = Integer.parseInt(sik.split(" \\+ ")[1]);
+                if (a + b == dap) {
+                    answer[i++] = "O";
+                } else{
+                    answer[i++] = "X";
+                }
+            }
         }
+
         return answer;
     }
 }
