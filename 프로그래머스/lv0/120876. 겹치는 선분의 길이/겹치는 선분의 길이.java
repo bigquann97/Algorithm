@@ -1,26 +1,22 @@
+
 class Solution {
     public int solution(int[][] lines) {
         int answer = 0;
-        int[] table = new int[201];
+        int[] table = new int[250];
 
-        // -100 ~ 0 , 0 ~ 100
-        // 0 ~ 100 , 100 ~ 200
+        // 0 1 / 2 5 / 3 9
         for (int i = 0; i < lines.length; i++) {
-            int p1 = lines[i][0];
-            int p2 = lines[i][1];
-            int startP = Math.min(p1, p2);
-            int endP = Math.max(p1, p2);
-            int length = endP - startP;
-            for (int j = 0; j < length; j++) {
-                table[startP + 100] += 1;
-                startP++;
+            int endP = Math.max(lines[i][0], lines[i][1]);
+            int startP = Math.min(lines[i][0], lines[i][1]);
+            int temp = startP;
+            for (int j = 0; j < endP - startP; j++) {
+                table[temp++ + 125] += 1;
             }
         }
 
-        for (int i = 0; i < table.length; i++) {
-            if(table[i] >= 2) {
+        for (int dap : table) {
+            if(dap >= 2)
                 answer++;
-            }
         }
         return answer;
     }
