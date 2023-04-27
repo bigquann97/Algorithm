@@ -1,29 +1,30 @@
-import java.util.Scanner;
+import java.io.*;
+import java.util.Stack;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int num = Integer.parseInt(br.readLine());
+        StringBuilder sb = new StringBuilder();
 
-        // 테스트 케이스 개수 입력 받기
-        int T = scanner.nextInt();
+        for (int i = 0; i < num; i++) {
 
-        // 각 테스트 케이스에 대해 점수 계산
-        for (int i = 0; i < T; i++) {
-            String result = scanner.next();
-            int score = 0; // 각 테스트 케이스의 점수
+            String s = br.readLine();
+            char[] chars = s.toCharArray();
+            int answer = 0;
+            int score = 1;
 
-            int consecutive = 0; // 연속된 O의 개수
-            for (int j = 0; j < result.length(); j++) {
-                if (result.charAt(j) == 'O') {
-                    consecutive++;
-                    score += consecutive;
+            for (int j = 0; j < chars.length; j++) {
+                if (chars[j] == 'O') {
+                    answer += score++;
                 } else {
-                    consecutive = 0;
+                    score = 1;
                 }
             }
 
-            // 결과 출력
-            System.out.println(score);
+            sb.append(answer).append("\n");
         }
+
+        System.out.println(sb);
     }
 }
