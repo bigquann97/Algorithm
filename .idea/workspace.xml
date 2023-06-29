@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="키워드 - 기능, 단위 #issue번호 &#10;&#10;변경사항 : &#10;&#10;# 키워드: 생성, 수정, 추가,고치기,문서화,스타일, 테스트 &#10;# &quot;왜&quot;, &quot;무엇&quot;을 포함하기 &#10;# 제목은 80자 이내로, 긴 내용은 줄바꿈하고 본문에서">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
-    </list>
+    <list default="true" id="825d487b-6d24-4f55-87f8-09fe0891e2f2" name="Changes" comment="키워드 - 기능, 단위 #issue번호 &#10;&#10;변경사항 : &#10;&#10;# 키워드: 생성, 수정, 추가,고치기,문서화,스타일, 테스트 &#10;# &quot;왜&quot;, &quot;무엇&quot;을 포함하기 &#10;# 제목은 80자 이내로, 긴 내용은 줄바꿈하고 본문에서" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gwanho/Desktop/pro-stu/Algorithm/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/gwanho/Desktop/pro-stu/Algorithm/src",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -159,6 +158,7 @@
       <workItem from="1670810190072" duration="52000" />
       <workItem from="1670820921421" duration="3351000" />
       <workItem from="1670909583561" duration="4724000" />
+      <workItem from="1688025876222" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1667985731944</created>
